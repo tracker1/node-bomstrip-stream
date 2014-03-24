@@ -9,7 +9,7 @@ Usage
 -----
     var fs = require('fs');
 	var bomstrip = require('bomstrip');
-	var stripped_stream = fs.createReadStream("path/to/file").pipe(bomstrip);
+	var stripped_stream = fs.createReadStream("path/to/file").pipe(new bomstrip());
 
 Install
 -------
