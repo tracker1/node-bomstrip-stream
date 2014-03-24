@@ -1,6 +1,6 @@
 {
   "name": "bomstrip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node transformation stream that will strip a UTF-8 Byte Order Mark from the beginning.",
   "main": "index.js",
   "scripts": {

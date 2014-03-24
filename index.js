@@ -18,7 +18,6 @@ function BomStrippingStream(options) {
 			if (chunk[0] == 0xEF && chunk[1] == 0xBB && chunk[2] == 0xBF) {
 				chunk = chunk.slice(3);
 			}
-			console.log(chunk);
 		}
 		this.push(chunk);
 		done();
