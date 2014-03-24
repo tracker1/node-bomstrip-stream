@@ -21,6 +21,5 @@ function BomStrippingStream(options) {
 		}
 		this.push(chunk);
 		done();
-		return;
 	};
 }
